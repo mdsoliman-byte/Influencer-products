@@ -80,4 +80,46 @@ ul > li {
   margin-left: 30px;
 }
 /* Brand Logo Section ENd  */
+/* Popular Collection Section Start */
+.popular-collection {
+  padding: 30px;
+  margin-left: 5%;
+}
+.all-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 40px;
+}
+.product {
+  width: 329px;
+  height: 476px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 15px;
+}
+.product-image {
+  width: 300px;
+  height: 256px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.product-summary {
+  margin-left: 20px;
+  line-height: 20px;
+}
+.product-name {
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 0;
+}
+.product-price {
+  margin-top: 0px;
+  font-weight: 200;
+}
+.fa-star {
+  color: Orange;
+}
+.product-description {
+  font-size: 14px;
+}
+/* Popular Collection Section End */
 /* Main Section ENd  */
