@@ -53,7 +53,7 @@ ul > li {
 .top-left p {
   width: 400px;
 }
-.top-left button {
+.button {
   background-color: #e02c6d;
   border-radius: 30px;
   color: white;
@@ -61,8 +61,12 @@ ul > li {
   border: none;
   cursor: pointer;
 }
+
 .top-right {
   margin-right: 50px;
+  background-image: url("/assets/images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .top-right img {
   width: 440px;
@@ -138,6 +142,27 @@ ul > li {
   cursor: pointer;
 }
 /* Popular Collection Section End */
+/*  Featured products Section Start  */
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+}
+.left-featured {
+  margin-left: 50px;
+  padding-left: 50px;
+}
+.left-featured img {
+  width: 404px;
+  height: 270px;
+}
+..right-featured {
+  margin-right: 5%;
+}
+.right-featured h2 {
+  font-size: 38px;
+}
+/*  Featured products Section End  */
 /* Main Section ENd  */
 /* Footer Section Start  */
 footer {
